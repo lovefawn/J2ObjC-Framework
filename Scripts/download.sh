@@ -2,7 +2,7 @@
 set -ev
 
 j2objc_version=1.0.2
-sha1_checksum=6f2f45b323ef92cc8d1b13dd789aebd1ab87562f
+sha1_checksum=bb2d9a4563d68d16287626297a166a8bcced552e
 
 echo "fetching j2objc dist"
 curl -OL http://localhost/j2objc-1.0.2.zip
