@@ -5,7 +5,7 @@ j2objc_version=1.0.2
 sha1_checksum=6f2f45b323ef92cc8d1b13dd789aebd1ab87562f
 
 echo "fetching j2objc dist"
-curl -OL https://github.com/google/j2objc/releases/download/${j2objc_version}/j2objc-${j2objc_version}.zip
+curl -OL http://localhost/j2objc-1.0.2.zip
 echo "${sha1_checksum}  j2objc-${j2objc_version}.zip" | shasum -c
 unzip -o -q j2objc-${j2objc_version}.zip
 mv j2objc-${j2objc_version} Distributive
